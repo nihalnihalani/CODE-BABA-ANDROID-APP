@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boredbess.code_baba">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second_screen">
+            <intent-filter>
+                <action android:name="com.boredbess.code_baba.Second_screen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cppScreen" />
+        <activity android:name=".cScreen" />
+        <activity android:name=".pythonScreen" />
+        <activity android:name=".htmlScreen" />
+        <activity android:name=".javaScreen"></activity>
+    </application>
+
+</manifest>
